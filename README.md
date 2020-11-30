@@ -11,6 +11,8 @@ This project is a simple HTML and CSS test page written on top of an existing pa
 I was looking for learning technique HTML i CSS. My idea is recreating already existing website without looking into code. With this I can practice my skills.
 
 ## Status project
+Adding Bootstrap
+Adding semantic HTML
 Optimizing code.
 
 ## Technologies
