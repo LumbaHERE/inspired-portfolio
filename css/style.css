@@ -136,7 +136,7 @@ body {
 .footer__container .main__content__contact__socials {
 	font-size: 25px;
 	float: left;
-	margin: 10px 0px 0px 413px;
+	margin: 0px 0px 0px 413px;
 }
 .main__content__contact__socials a{
 	color: gray;
@@ -181,6 +181,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
+	margin-top: 10px;
 }
 .footer__container__text {
 	font-size: 17;
