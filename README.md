@@ -32,7 +32,7 @@ Sources that help me:
 * http://shouldiprefix.com
 
 ## Setup
-Click on this link :https://lumbahere.github.io/inspired-portfolio/
+Click on this link :https://lumbastian.github.io/inspired-portfolio/
 
 ## Contact
 Email: 
