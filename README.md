@@ -8,7 +8,7 @@
 
 ## General info
 This project is a simple HTML and CSS test page written on top of an existing page. Educational project, a practical task that I set myself.
-I was looking for learning technique HTML i CSS. My idea is recreating already existing website without looking into code. Thank to this I can practice my skills.
+I was looking for learning technique HTML i CSS. My idea is recreating already existing website without looking into code. With this I can practice my skills.
 
 ## Status project
 Optimizing code.
