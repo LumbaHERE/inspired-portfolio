@@ -1,191 +1,193 @@
 body {
-	background-color: #FFFFFF;
-	margin: 0 !important;
-	font-family: 'Poppins', sans-serif;
-	color: black;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+header {
+	background-color: black;
+	border-bottom: 2px solid green;
+}
+h1 {
+	color: green;
+	font-size: 35px;
+	line-height: 30%;
+	/*padding-left: 20vw; */
+	/* padding-top: 3vh; */
 }
 .helper {
 	clear: both;
 }
-.header {
-	width: 100%;
-	height: 120px;
-	background-color: black;
-	border-bottom:2px solid green;
-	align: center;
-}
-.header__element {
-	margin-left: auto;
-	margin-right: auto;
-	width: 1200px;
-}
-.header__element__logo {
-	width: 600px;
-	height: 100px;
-	color: #4d9900;
-	float: left;
+.header__left p {
+	color: white;
 	font-size: 20px;
+	/*padding-bottom: 1vh;*/
+	/*padding-left: 20vw;*/ 
 }
-.header__element__logo > h1 {
-	font-size: 35px;
-	line-height: 60%;
+.header__left {
+	padding: 3vh 0 1vh 20vw;
+	display: inline-block;
 }
-.header__element__logo span {
-	color: grey;
+.header__right {
+	width: 30vw;
+	display: inline-block;
+	margin-left: 19vw;
+	min-width: 200px;
 }
-.header__element__nav {
-	width: 400px;
-	margin-top: 60px;
-	float: left;
-}
-.header__element__nav > ol {
+.header__right > nav > ul {
 	list-style: none;
+	margin-left: auto;
+	margin-rgiht: auto;
 }
-.header__element__nav > ol > li {
-	display: inline;
-	padding: 0px 15px 0px 15px;
-	border-bottom: 1px solid grey;
+.header__right > nav > ul > li {
+	display: inline-block;
+	font-size: 20;
+	border-bottom: 3px solid green;
+	padding-left: 1vw;
+	padding-right: 1vw;
 }
-.header__element__nav ol > li > a {
+.header__right > nav > ul > li > a {
 	text-decoration: none;
-	color: grey;
+	color: white;
 }
-.header__element__nav > ol > li:first-child {
-	border-bottom: 3px solid #4d9900;
-}
-.fast {
-	color: #4d9900;
-}
-.main__content {
+.article__upper {
+	border: 1px solid grey;
+	border-radius: 4px;
+	width: 60vw;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1000px;
+	margin-top: 2vh;
+}
+.article__upper__photo {
+	margin-top: 3vh;
+	margin-left: 2vw;
+	margin-bottom: 3vh;
+	margin-right: 2vw;
+	display: inline-block;
+	max-width: 350px;
+	max-height: 371px;
+	float: left;
+}
+.article__upper__photo > img {
 	border: 1px solid grey;
-	border-radius: 3px;
-	margin-top: 50px;
+	width: 100%;
+	height: auto;
+	max-width: 350px;
+	max-height: 371px;
 	
 }
-.main__content__photo {
-	width: 350px;
-	height: 371px;
-	border: 1px solid grey;
-	margin: 30px 20px 40px 30px;
+.article__upper__text {
+	margin-top: 3vh;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-bottom: 3vh;
+	display: inline-block;
+	width: 15vw;
 	float: left;
+	text-align: justify;
+	min-width: 200px;
+	height: auto;
+	max-height: 371px;
+	font-size: 16;
 }
-.main__content__text {
-	width: 300px;
-	height: 371px;
-	float: left;
-	position: relative;
-	margin: 30px 20px 40px;
-}
-.main__content__text h1 {
+.article__upper__text > h2 {
 	color: #4d9900;
-	font-size: 80;
-	line-height: 1%;
-	letter-spacing: 3px;
-}
-.main__content__text h2 {
-	color: #4d9900;
-	font-size: 25;
+	font-size: 40;
 	font-weight: 200;
+	line-height: 30%;
 }
-.main__content__text p {
-	
-	font-size: 15;
-}
-.main__content__text__cv {
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-	background-color: #4d9900;
-	width: 100px;
-	text-align: center;
-	height: 30px;
-	line-height: 200%;
-	transition: all 0.1s ease-in-out;
-}
-.main__content__text__cv a {
+.mycv a {
 	text-decoration: none;
-	color: #FFFFFF;
 	display: block;
+	background-color: green;
+	color: white;
+	width: 3vw;
+	min-width: 30px;
+	padding: 1px 1px 1px 1px;
+	text-align: center;
 }
-.main__content__text__cv:hover {
-	-webkit-transform: scale(0.95);
-	-ms-transform: scale(0.95);
-	transform: scale(0.95); 
-}
-.main__content__contact {
-	height: 371px;
+.article__upper__contact {
 	float: left;
-	margin: 30px 30px 40px;
-	width: 198px;
-	font-size: 15;
-	font-weight: 200;
-	ine-height: 300%;
+	margin-top: 3vh;
+	margin-left: 2vw;
+	margin-bottom: 3vh;
+	margin-right: 2vw;
 }
-.main__content__contact > h3 {
+.article__upper__contact > dl > dt {
 	font-size: 17;
 	font-weight: 200;
-	line-height: 0%;
 	color: #4d9900;
 }
-.main__content__contact__socials {
+.article__upper__contact > dl > dt > dd {
+	font-size: 14;
+	font-weight: 200;
+}
+.socials {
 	font-size: 30px;
 }
-.footer__container .main__content__contact__socials {
-	font-size: 25px;
-	float: left;
-	margin: 0px 0px 0px 413px;
-}
-.main__content__contact__socials a{
-	color: gray;
+.socials > a {
 	text-decoration: none;
+	color: grey;
 }
-.main__about {
-	width: 1000px;
+.article__bottom {
+	width: 60vw;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 2vh;
+	margin-bottom: 4vh;
 }
-.main__about__title {
-	font-size: 17;
-	line-height: 0%;
+.aboutme {
+	float: left;
+	width: 15vw;
+	margin-top: 3vh;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-bottom: 3vh;
+	font-size: 14;
+	min-width: 200px;
+}
+.hobby {
+	float: left;
+	width: 15vw;
+	margin-top: 3vh;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-bottom: 3vh;
+	font-size: 14;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	min-width: 200px;
+}
+.project {
+	float: left;
+	width: 15vw;
+	margin-top: 3vh;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-bottom: 3vh;
+	font-size: 14;
+	min-width: 200px;
+}
+h3 {
+	font-size: 20;
+	font-weight: 200;
 	color: #4d9900;
 }
-.main__about__me {
-	float: left;
-	width: 290px;
-	margin: 50px 20px 40px 30px;
-	border-right: 1px solid gray;
-}
-.main__about__hobby {
-	float: left;
-	width: 290px;
-	margin: 50px 20px 40px 0px;
-	border-right: 1px solid gray;
-}
-.main__about__project {
-	float: left;
-	width: 290px;
-	margin: 50px 30px 40px 0px;
-}
-.footer {
+footer {
 	width: 100%;
-	border-top: 1px solid gray;
-	height: 50px;
-	position: absolute;
-	left: 0;
-	bottom: 0;
+	border-top: 1px solid grey ;
 }
-.footer__container {
-	margin-left: auto;
-	margin-right: auto;
-	width: 1000px;
-	margin-top: 10px;
-}
-.footer__container__text {
-	font-size: 17;
-	font-weight: 200;
-	margin-top: 15;
+.copyright {
+	padding: 1vh 0 1vh 20vw;
 	float: left;
+	height: auto;
+}
+footer > .socials {
+	font-size: 30px;
+	float: left;
+	padding: 2vh 0 1vh 30vw;
+	height: auto;
 }
