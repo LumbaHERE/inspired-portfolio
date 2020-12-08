@@ -1,61 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
 
-<meta charset="utf-8">
-	<title>Portfolio rebuild</title>
-	<meta name="description" content="description">
-	<meta name="keywords" content="keywords">
+	<meta charset="utf-8">
+	<title>Pusta Templatka</title>
+	<meta name="description" content="Opis">
+	<meta name="keywords" content="tagi">
 	<meta name="author" content="Sebastian Cyra">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
 	
-	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" href="style.css">
 	
-	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
-		<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/fontello.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
-
-
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
 </head>
+
 <body>
 	<header>
-		<div class="header__left">
-		<h1>Sebastian Cyra</h1>
-		<p>Lorem ipsum</p>
+		<div class="top">
+			<div class="logo">
+				<h1>Sebastian <span>Cyra</span></h1>
+				<p>FullStack WebDeveloper</p>
+			</div>
+			<nav>
+			<div class="nav">
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">CV</a></li>
+					<li><a href="#">PROJECTS</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</div>
+			</nav>
 		</div>
-		<div class="header__right">
-		<nav>
-			<ul>
-			<li><a href="">HOME</a></li>
-			<li><a href="">CV</a></li>
-			<li><a href="">Projects</a></li>
-			<li><a href="">Contact</a></li>
-			</ul>
-		</nav>
-		</div>
-		<div class="helper"></div>
-		
 	</header>
 	<main>
 		<article>
-			<div class="article__upper">
-				<section>
-					<div class="article__upper__photo">
-						<img src="img/stock.png">
-					</div>
-				</section>
-				<section>
-					<div class="article__upper__text">
-						<h2>Hello</h2>
-						<p class="underh">I'm available for work.</p>
-						<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
-						<p class="mycv"><a href="#">MY CV</a></p>
-					</div>
-				</section>
-				<section>
-					<div class="article__upper__contact">
-						<dl>
+		<div class="container">
+			<section>
+				<div class="zdj"><img src="img/stock.png"></div>
+			</section>
+			<section>
+				<div class="text">
+					<h2>Hello!</h2>
+					<p>I'm available for work.</p>
+					<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+					<a href="#" class="cta"><button>My CV</button></a>
+				</div>
+			</section>
+			<section>
+				<div class="contact">
+					<dl>
 						<dt>Available for:</dt>
 						<dd>Project Management</dd>
 						<dd>Consulting</dd>
@@ -66,22 +66,21 @@
 						<dt>Cell:<dt>
 						<dd>123-456-7890</dd>
 						<dt>Email:</dt>
-			﻿			<dd>info@mysite.com</dd>
+				﻿		<dd>info@mysite.com</dd>
 						<dt>Socials:</dt>
 						</dl>
-						<div class="socials">
-							<a href="#"><i class="icon-twitter-circled"></i></a>
-							<a href="#"><i class="icon-facebook-circled"></i></a>
-							<a href="#"><i class="icon-linkedin-circled"></i></a>
-						</div>
+					</dl>
+					<div class="socials">
+						<a href="#"><i class="icon-twitter-circled"></i></a>
+						<a href="#"><i class="icon-facebook-circled"></i></a>
+						<a href="#"><i class="icon-linkedin-circled"></i></a>
 					</div>
-				</section>
-					<div class="helper"></div>
-			</div>
+				</div>
+			</section>
+		</div>
 		</article>
-		
 		<article>
-			<div class="article__bottom">
+			<div class="bott">
 				<section>
 					<div class="aboutme">
 						<h3>ABOUT ME</h3>
@@ -100,25 +99,22 @@
 						<p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you.”</p>
 					</div>
 				</section>
-				<div class="helper"></div>
+				
 			</div>
 		</article>
-		<footer>
-			<div class="copyright">
-				<p>© 2020 by Lorem Ipsum. Proudly created with Wix.com</p>
+	</main>
+	<footer>
+		<div class="foot">
+			<div class="copyr">
+				<p>&copy; 2020 by Sebastian Cyra. Proudly created with Wix.com</p>
 			</div>
 			<div class="socials">
 				<a href="#"><i class="icon-twitter-circled"></i></a>
 				<a href="#"><i class="icon-facebook-circled"></i></a>
 				<a href="#"><i class="icon-linkedin-circled"></i></a>
 			</div>
-			<div class="helper"></div>
-		</footer>
-	</main>
-
-
-
-
+		</div>
+	</footer>
 
 </body>
 </html>

@@ -1,0 +1,166 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #FFFFFF;
+	color: #black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+	margin: 0;
+}
+header {
+	background-color: black;
+}
+.top {
+	width: 60vw;
+	padding: 10px;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	color: #4d9900;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	margin: 0;
+	padding: 0;
+}
+.logo span {
+	color: grey;
+}
+.logo > p {
+	color: grey;
+}
+.nav {
+	
+}
+.nav > ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	
+}
+.nav > ul > li {
+	margin: 1vw;
+	border-bottom: 2px solid green;
+	border-radius: 20px;
+}
+.nav > ul > li:hover a {
+	border-bottom: 5px solid green;
+	background-color: #404040;
+	border-radius: 20px;
+}
+.container {
+	width: 60vw;
+	margin: auto;
+	margin-top: 4vh;
+	display: flex;
+	flex-flow: row wrap; 
+	justify-content: space-evenly;
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 2vh 0.2vw 2vh 0.2vw;
+}
+.container h2 {
+	color: #4d9900;
+	font-size: 20;
+	font-weight: 200;
+}
+.zdj > img {
+	border: 1px solid grey;
+	width: 100%;
+	height: auto;
+}
+.text {
+	text-align: justify;
+	width: 220px;
+	font-size: 15px;
+	margin: 0 5px 0 5px;
+}
+button {
+	padding: 9px 25px;
+	background-color: rgba(77,153,0,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	font-weight: 400;
+	font-size: 18px;
+}
+.cta > a{
+	font-weight: 400;
+}
+button:hover {
+	background-color: rgba(115, 153, 0,0.8);
+}
+.contact {
+	width: 200px;
+	margin: 0 5px 0 5px;
+	font-size: 15px;
+}
+dt {
+	color: #4d9900;
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.bott {
+	width: 60vw;
+	margin: auto;
+	margin-top: 4vh;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 80px;
+}
+.bott h3 {
+	font-size: 17;
+	font-weight: 200;
+	color: #4d9900;
+	
+}
+.aboutme {
+	width: 240px;
+}
+.hobby {
+	width: 240px;
+}
+.project {
+	width: 240px;
+}
+i {
+	font-size: 30px;
+}
+.socials i{
+	transition: all 0.3s ease 0s;
+}
+.socials > a {
+	color: black;
+}
+.socials i:hover{
+	color: grey;
+}
+footer {
+	width: 100%;
+	border-top: 1px solid black;
+}
+.foot {
+	width: 60vw;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 5px;
+}
+
+
